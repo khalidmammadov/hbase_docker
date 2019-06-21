@@ -15,7 +15,7 @@
 
 
 ## Overview
-In this short article I am going to install HBASE distributed database on Docker containers and set underlying file system to HDFS which is configured beforehand (see this post)
+In this short article I am going to install HBASE distributed database on Docker containers and set underlying file system to HDFS which is configured beforehand ([see this post](https://github.com/khalidmammadov/hadoop_dist_docker))
 
 Here I will create a distributed Hbase cluster with Master, Backup Master and two Region Servers with ZooKeeper. The Backup Master and one Region Server are going to share the same host (although it can also be separated). This set up follows official Hbase set up guide [“2.4. Advanced – Fully Distributed”](https://hbase.apache.org/book.html#quickstart_fully_distributed) from Apache web site.
 
