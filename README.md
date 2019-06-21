@@ -1,5 +1,6 @@
 # APACHE HBASE ON DOCKER CONTAINERS
 
+![alt text](https://github.com/khalidmammadov/hbase_docker/blob/images/hbase.png "Hbase logo") ![alt text](https://github.com/khalidmammadov/hbase_docker/blob/images/docker.png "Docker logo")
 
 ## Overview
 In this short article I am going to install HBASE distributed database on Docker containers and set underlying file system to HDFS which is configured beforehand (see this post)
