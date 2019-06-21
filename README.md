@@ -255,7 +255,13 @@ As you can see RegionServers are running on first two and there are two masters 
 Lets, connect to the web GUI and see how cluster looks like.
 Navigate to http://192.168.1.40:16010/master-status page on your browser.
 
-![alt text](https://github.com/khalidmammadov/hbase_docker/blob/imaages/hbase_docker_ui.png "Hbase UI")
+<p align="center">
+     <img
+      alt="Hbase"
+      src="https://github.com/khalidmammadov/hbase_docker/raw/master/images/hbase_docker_ui.png"
+      width="400"
+    />
+</p>
 
 ## Summary
 
