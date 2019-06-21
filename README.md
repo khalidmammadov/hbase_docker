@@ -259,7 +259,7 @@ Navigate to http://192.168.1.40:16010/master-status page on your browser.
      <img
       alt="Hbase"
       src="https://github.com/khalidmammadov/hbase_docker/raw/master/images/hbase_docker_ui.png"
-      width="400"
+      width="800"
     />
 </p>
 
