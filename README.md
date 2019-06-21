@@ -1,4 +1,6 @@
-# hbase_docker
+# APACHE HBASE ON DOCKER CONTAINERS
+
+
 ## Overview
 In this short article I am going to install HBASE distributed database on Docker containers and set underlying file system to HDFS which is configured beforehand (see this post)
 
@@ -240,7 +242,7 @@ As you can see RegionServers are running on first two and there are two masters 
 Lets, connect to the web GUI and see how cluster looks like.
 Navigate to http://192.168.1.40:16010/master-status page on your browser.
 
-
+![alt text](https://github.com/khalidmammadov/hbase_docker/blob/imaages/hbase_docker_ui.png "Hbase UI")
 
 ## Summary
 
