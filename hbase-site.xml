@@ -30,17 +30,17 @@
 
 <property>
   <name>hbase.rootdir</name>
-  <value>hdfs://192.168.1.30:9000/hbase</value>
+  <value>hdfs://namenode:9000/hbase</value>
 </property>
 
 <property>
   <name>hbase.zookeeper.quorum</name>
-  <value>192.168.1.40,192.168.1.41,192.168.1.42</value>
+  <value>hbase_regionserver2,hbase_regionserver_backup,hbase_master</value>
 </property>
 
 <property>
   <name>hbase.zookeeper.property.dataDir</name>
-  <value>hdfs://192.168.1.30:9000/zookeeper</value>
+  <value>hdfs://namenode:9000/zookeeper</value>
 </property>
 
 

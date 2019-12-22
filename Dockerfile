@@ -2,22 +2,14 @@
 FROM ubuntu:latest
 
 
-RUN apt-get update \
-    && apt-get -y install software-properties-common ssh openssh-server
+RUN apt update \
+    && apt -y install software-properties-common ssh openssh-server
 
 
+RUN apt -y install  openjdk-8-jdk \
+    && update-java-alternatives -s java-1.8.0-openjdk-amd64
 
-#Install Open JDK
-RUN apt-add-repository "deb http://ftp.uk.debian.org/debian experimental main" \
-    && apt-add-repository "deb http://ftp.uk.debian.org/debian sid main" \
-    && apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 8B48AD6246925553 \
-    && apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 7638D0442B90D010 
-
-RUN apt-get update \
-    && apt-get -y install  openjdk-7-jdk \
-    && update-java-alternatives -s java-1.7.0-openjdk-amd64
-
-ENV JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64/jre/
+ENV JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/jre/
 
 
 

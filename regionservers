@@ -1,2 +1,3 @@
-192.168.1.41
-192.168.1.42
+hbase_regionserver_backup
+hbase_regionserver2
+
