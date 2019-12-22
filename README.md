@@ -1,9 +1,21 @@
 # APACHE HBASE ON DOCKER CONTAINERS
 
-![alt text](https://github.com/khalidmammadov/hbase_docker/blob/images/hbase.png "Hbase logo") ![alt text](https://github.com/khalidmammadov/hbase_docker/blob/images/docker.png "Docker logo")
+<p align="center" style="vertical-align: middle;">
+     <img
+      alt="Hbase"
+      src="https://github.com/khalidmammadov/hbase_docker/raw/master/images/hbase.png"
+      width="400"
+    />
+      <img
+      alt="Docker"
+      src="https://github.com/khalidmammadov/hbase_docker/raw/master/images/docker.png"
+      width="400"
+    />
+</p>
+
 
 ## Overview
-In this short article I am going to install HBASE distributed database on Docker containers and set underlying file system to HDFS which is configured beforehand (see this post)
+In this short article I am going to install HBASE distributed database on Docker containers and set underlying file system to HDFS which is configured beforehand ([see this post](https://github.com/khalidmammadov/hadoop_dist_docker))
 
 Here I will create a distributed Hbase cluster with Master, Backup Master and two Region Servers with ZooKeeper. The Backup Master and one Region Server are going to share the same host (although it can also be separated). This set up follows official Hbase set up guide [“2.4. Advanced – Fully Distributed”](https://hbase.apache.org/book.html#quickstart_fully_distributed) from Apache web site.
 
@@ -243,7 +255,13 @@ As you can see RegionServers are running on first two and there are two masters 
 Lets, connect to the web GUI and see how cluster looks like.
 Navigate to http://192.168.1.40:16010/master-status page on your browser.
 
-![alt text](https://github.com/khalidmammadov/hbase_docker/blob/imaages/hbase_docker_ui.png "Hbase UI")
+<p align="center">
+     <img
+      alt="Hbase"
+      src="https://github.com/khalidmammadov/hbase_docker/raw/master/images/hbase_docker_ui.png"
+      width="800"
+    />
+</p>
 
 ## Summary
 
